@@ -1,7 +1,11 @@
-count = 10
+county = 1
 
 print("Here is squares of numbers")
 
-while (count < 21):
-  print (f"{count} * {count} = {count*count}")
-  count = count + 1
+while (county < 13):
+  countx = 1
+  while (countx < 13):
+    print(f"{countx*county} ", end = "")
+    countx = countx + 1
+  print (f"")
+  county = county + 1
